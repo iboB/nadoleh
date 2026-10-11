@@ -3,7 +3,7 @@
 #
 cmake_minimum_required(VERSION 3.24 FATAL_ERROR)
 
-project(my_app_template
+project(nadoleh
     LANGUAGES C CXX
 )
 
@@ -113,8 +113,8 @@ enable_testing()
 ######################
 # packages
 CPMAddPackage(gh:iboB/splat@1.3.5)
-CPMAddPackage(gh:iboB/itlib@1.12.2)
+CPMAddPackage(gh:iboB/itlib@1.12.3)
 
 ######################
 # subdirs
-add_subdirectory(scratch)
+add_subdirectory(sandbox)
